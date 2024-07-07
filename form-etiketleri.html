@@ -1,0 +1,156 @@
+<form>
+    İsim : <input type="text" name="isim" value="isminiz"><br>
+    Soyad :<input type="text" name="soyad" value= "soyadınız">
+</form>
+
+<form>
+    Kullanıcı adı: <input type="text" name="kullanıcı">
+    Şifre : <input type="password" id="pass">
+</form>
+<br>
+<form>
+    Cinsiyet:
+    <input type="radio" name="Cinsiyet" value="Erkek"> Erkek
+    <input type="radio" name="Cinsiyet" value="Kadın"> Kadın
+</form>
+
+<form>
+    Meslek:
+    <input type="radio" name="Meslek" value="Avukat"> Avukat
+    <input type="radio" name="Meslek" value="Avukat"> Doktor
+    <input type="radio" name="Meslek" value="Avukat"> Developer
+</form>
+<br>
+<form>
+    Programlama Dilleri:
+    <input type="checkbox" name="Program" value="html"> HTML
+    <input type="checkbox" name="Program" value="css"> CSS
+    <input type="checkbox" name="Program" value="java"> JAVA
+</form>
+
+<form> 
+    CV:
+    <input type="file" id="cv">
+</form>
+
+<form>
+    <input type="submit" value="Gönder">
+    <input type="reset" value="Temizle">
+</form>
+
+<form>
+    Arama:
+    <input type="search" value="">
+</form>
+<br>
+<form>
+    E-Mail:
+    <input type="email" name="mail" required><br>
+    <input type="submit" value="Gönder">
+    <input type="reset" value="Temizle">
+</form>
+<br>
+<form>
+    URL:
+    <input type="url" name="url" required><br>
+    <input type="submit" value="Gönder">
+    <input type="reset" value="Temizle">
+</form>
+
+<form>
+    Telefon Numarası:
+    <input type="tel" name="tel" pattern=[0-9]* required>
+    <input type="submit" value="Gönder">
+    <input type="reset" value="Temizle">
+</form>
+<br>
+<form>
+    Sayı:
+    <input type="number" name="yaş" min="18" max="100" step="2" value="18" required>
+    <input type="submit" value="Gönder">
+    <input type="reset" value="Temizle">
+</form>
+<br>
+<form>
+    Not Ortalaması:
+    <input type="range" value="" name="ortalama" min="1" max="5" required><br>
+    <input type="submit" value="Gönder">
+    <input type="reset" value="Temizle">
+</form>
+<br>
+<form>
+    Doğum Tarihi:
+    <input type="datetime-local" name="dogum" value="2000-01-01">
+</form>
+<br>
+<form>
+    Ay Bilgisi
+    <input type="month" name="ay" value="2000-01" required>
+</form>
+<br>
+<form>
+    Doğum Saati:
+    <input type="time" name="yas" value="12:00" required>
+</form>
+<br>
+<form>
+    Göz Rengi:
+    <input type="color" name="göz rengi"  required>
+</form>
+<br>
+
+
+<!-- Button Etiketi -->
+<form>
+    <button type="button" onclick="alert ('Düğmeye tıkladınız')">
+        Tıklayınız
+    </button>
+</form>
+
+<select>
+    <option value="ilk">İlkokul</option>
+    <option value="orta">Ortaokul</option>
+    <option value="lise">Lise</option>
+    <option value="uni">Üniversite</option>
+    <option value="yüksek">Yüksek Lisans</option>
+    <option value="doktora">Doktora</option>
+</select>
+<br>
+<br>
+<form>
+    İşletim Sistemi:
+    <input list="İşletim Sistemleri" name="Sistem">
+    <datalist id="isletimsistemleri">
+        <option value="windows">
+        <option value="Mac Os">
+        <option value="Linux">
+    </datalist>
+</form>
+
+<select>
+    <optgroup label="Anadolu Yakası">
+        <option value="kad"> Kadıköy </option>
+        <option value="üsk"> Üsküdar </option>
+        <option value="mal"> Maltepe </option>
+    </optgroup>
+    <optgroup label="Avrupa Yakası">
+        <option value="bey"> Beyoğlu </option>
+        <option value="beş"> Beşiktaş </option>
+        <option value="şiş"> Şişli </option>
+    </optgroup>
+</select>
+
+<form>
+    <h4>Beyan Kısmı</h4>
+    <textarea name="dilekçe" id="" cols="25" rows="4">
+        Bu ve önceki alanlarda girilen bütün ifadelerin gerçekliğini kabul ediyorum.
+    </textarea>
+    <hr>
+    <input type="submit" value="Gönder">
+    <input type="reset" value="Temizle">
+</form>
+
+<body>
+    Kodlab yayınevi anasayfası <a href="http://www.kodlab.com"> bu adresten ziyaret edilebilir.
+    </a>
+</body>
